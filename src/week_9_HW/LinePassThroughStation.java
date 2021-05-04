@@ -104,7 +104,7 @@ public class LinePassThroughStation {
                 if (mainList.get(i).getStationName().equalsIgnoreCase(station)) {
                     found = true;
                     List<String> subTube = mainList.get(i).getTubeList();
-                    System.out.println(mainList.get(i).tubeList);
+//                    System.out.println(mainList.get(i).tubeList);
 
                     for (int k = 0; k < subTube.size(); k++) {
                         System.out.println(subTube.get(k));
